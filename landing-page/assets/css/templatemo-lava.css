@@ -719,7 +719,7 @@ welcome
   }
   .welcome-area .header-text {       
     width: 92%;
-    padding-top: 793px;
+    padding-top: 40%;
   }
   .welcome-area .header-text .left-text {
     margin-top: 5%;
@@ -732,7 +732,7 @@ welcome
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
+    padding-top: 0%;
     margin-left: 0;
   }
     
@@ -854,16 +854,19 @@ promotion
 testimonials
 --------------------------------------------
 */
-.right-image-decor {
-  background-image: url(../images/right-bg-decor.png);
-  background-repeat: no-repeat;
-  background-position: right center;
-  position: absolute;
-  width: 100%;
-  display: inline-block;
-  height: 110%;
-  margin-top: -200px;
+@media screen and (min-width: 641px) {
+  .right-image-decor {
+    background-image: url(../images/right-bg-decor.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    height: 110%;
+    margin-top: -75px;
+  }
 }
+
 
 #testimonials {
   padding-top: 100px;
