@@ -162,27 +162,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f67d8e;
-}
-
-a.secondary-button-slider {
-  font-size: 14px;
-  border-radius: 25px;
-  margin-left:1em;
-  padding: 15px 25px;
-  background-color: #1A2E40;
-  text-transform: uppercase;
-  color: #e3b5a4;
-  font-weight: 600;
-  letter-spacing: 1px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-a.secondary-button-slider:hover {
-  background-color: #364e64;
+  background-color: #f1556a;
 }
 
 a.main-button {
@@ -886,7 +866,6 @@ testimonials
     margin-top: -75px;
   }
 }
-
 
 #testimonials {
   padding-top: 100px;
